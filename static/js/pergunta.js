@@ -1,0 +1,48 @@
+const palavras = [
+    "tcp ip",
+    "lan",
+    "roteador",
+    "latência",
+    "wlan",
+    "smtp",
+    "osi",
+    "ietf",
+    "multiplexação",
+    "fibra óptica",
+    "trasporte",
+    "detecção",
+    "man",
+    "dns",
+    "arpanet",
+    "repetidor",
+    "fisica",
+    "spread spectrum",
+    "switch",
+    "ftp",
+
+];
+
+const dicas = [
+
+"Qual o protocolo mais utilizado para comunicação na Internet?",
+"Qual é o tipo de rede que cobre uma área geográfica pequena, como um escritório?",
+"Como é chamado o dispositivo que encaminha pacotes de dados entre redes diferentes?",
+"Qual é o termo usado para o atraso na transmissão de pacotes de dados?",
+"Qual tecnologia permite a comunicação sem fio entre dispositivos?",
+"Qual é o protocolo utilizado para o envio de e-mails?",
+"Qual é o modelo de referência de comunicação em redes com sete camadas?",
+"Que nome se dá à organização responsável por criar normas para a Internet?",
+"Como é chamado o método de transmissão de dados que utiliza frequências diferentes para enviar múltiplos sinais?",
+"Qual o tipo de cabo usado para transmissões de alta velocidade e que possui baixa interferência eletromagnética?",
+"Qual é a camada do modelo OSI responsável por fornecer serviços de comunicação de ponta a ponta?",
+"Qual é o nome do processo que corrige erros de transmissão em redes?",
+"Qual tipo de rede interliga computadores em uma cidade?",
+"Qual é o protocolo usado para obter o endereço IP de um domínio na Internet?",
+"Qual é a tecnologia de redes que utiliza comutação de pacotes?",
+"Qual é o tipo de dispositivo que amplifica sinais em uma rede local?",
+"Qual camada do modelo OSI define a interface física de transmissão de dados?",
+"Qual o nome da técnica que divide um canal de comunicação em diferentes frequências para transmitir simultaneamente?",
+"Que tipo de equipamento conecta múltiplos dispositivos em uma rede local, permitindo a comunicação entre eles?",
+"Qual é o protocolo utilizado para transferência de arquivos pela Internet?",
+
+];

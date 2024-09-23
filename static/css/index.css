@@ -1,0 +1,137 @@
+/* Estilização básica */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  text-align: center;
+  background: linear-gradient(to right, blue 50%, orange 70%, red 90%)
+}
+
+img.RDP-logo {
+  max-width: 60%;
+  text-align: center;
+}
+
+header {
+  background: #000000;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.container {
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+h1 {
+  color: #153fc7;
+}
+
+h2 {
+  color: #007bff;
+}
+
+h3 {
+  color: #0624a5;
+  line-height: 1.6;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+html, body {
+  height: 100%;
+}
+.card-footer{
+
+  background-color: #ffffff18;
+  color: #000000;
+  padding: 15px 0;
+  text-align: center;
+  border-top: 1px solid transparent;
+
+}
+footer {
+  background-color: #ffffff18;
+  color: #000000;
+  padding: 15px 0;
+  text-align: center;
+  border-top: 1px solid transparent;
+}
+
+mbody{
+  font-family: 'Lato', sans-serif;
+}
+
+
+.link_wrapper{
+  position: relative;
+
+}
+
+.wrapper {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+a {
+  display: inline-block; 
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #333;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid #333;
+  transition: all .35s;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  border: 3px solid transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transition: all .35s;
+}
+
+
+.icon svg{
+  width: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  transform: rotate(-45deg);
+  fill: #382ecc;
+  transition: all .35s;
+}
+
+a:hover{
+  width: 200px;
+  border: 3px solid #2e46cc;
+  background: transparent;
+ 
+}
+
+a:hover + .icon{
+  border: 3px solid #2e46cc;
+  right: -25%;
+}
