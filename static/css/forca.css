@@ -5,11 +5,11 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    background: linear-gradient(to right, blue 50%, orange 70%, red 90%)
+    background: linear-gradient(to right, blue 10%, rgb(115, 255, 0) 50%)
     }
 
     .container {
-    background-color: #ffffff;
+    background-color: #ffffff62;
     border-radius: 8px;
     box-shadow: 0 4px 8px ☐ rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -20,12 +20,12 @@ body {
     }
 
     #dica {
-    color: #6c757d;
+    color: #000000;
     margin-bottom: 20px;
     }
 
     #palavra {
-        color: #343a40;
+        color: #000000;
         font-weight: bold;
         letter-spacing: 2px;
         margin-bottom: 20px;
